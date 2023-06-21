@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+button{
+    border: none;
+    cursor: pointer;
+    background: #F84646;
+    border-radius: 0.8rem;
+
+    color: #FFFFFF;
+}
+img{
+    max-width: 100%;
+}
+
+/* ************* mobile ************ */
+
+header nav{
+    margin-top: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+}
+.menu-group{
+    display: none;
+}
+header nav button{
+    padding: 10px 20px;
+}
+header nav button p{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.menu svg{
+    max-width: 3rem;
+    height: 100%;
+}
+h1{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 58px;
+    text-align: center;
+    
+
+    color: #000000;
+    margin-bottom: 3rem;
+}
+.header-section p{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 192%;
+    text-align: center;
+    letter-spacing: 0.2px;
+    
+    color: #000000;
+}
